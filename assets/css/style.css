@@ -1,0 +1,62 @@
+*{
+box-sizing: border-box;
+font-family: sans-serif;
+}
+.container{
+width: 400px;
+height: 340px;
+background-color: #f2f3f7;
+text-align: center;
+margin: 20px auto;
+padding: 20px ;
+}
+input{
+  margin: 5px;
+}
+input[type="text"]{
+  width: 100px;
+}
+input [type="checkbox"]{
+
+}
+button{
+  color: white;
+  background-color: #53ac54;
+  border: none;
+  margin-top: 20px;
+  padding: 10px 80px;
+  height: 40px;
+}
+
+h1{
+  font-size: 20px;
+  color: #7b7b7d;
+  position: relative;
+}
+p{
+  margin-top: 10px;
+ 
+  color: #b4b6b7;
+}
+a{
+  color: green;
+  text-decoration: none;
+}
+.left-right-line-header:before {
+  content: "";
+  border-bottom: 1px solid #d7d9dc;
+  width: 40%;
+  height: 0.5em;
+  position: absolute;
+  top: 0px;
+  margin-left: calc(-40% - 10px);
+}
+.left-right-line-header:after {
+  content: "";
+  border-bottom: 1px solid #d7d9dc;
+  width: 40%;
+  height: 0.5em;
+  position: absolute;
+  top: 0px;
+  margin-left: 10px;
+}
